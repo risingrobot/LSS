@@ -1,0 +1,77 @@
+﻿@{
+
+}
+
+<style>
+    #tbl_market {
+        background-color: #fff;
+        margin: 5px 0 10px 0;
+        border: solid 1px #525252;
+        width: 700px;
+        font-family: 'Times New Roman';
+        color: #474747;
+    }
+
+        .td {
+            padding: 2px;
+            border: solid 1px #c1c1c1;
+        }
+
+        .th {
+            padding: 4px 2px;
+            color: #fff;
+            background: #c5c5c6;
+            border-left: solid 1px #525252;
+            font-size: 1.9em;
+        }
+
+    .altgrid {
+        background: aliceblue;
+    }
+
+    .ItemNameC {
+    }
+
+    .ItemPriceC {
+    }
+
+    .ItemRegisterDateC {
+    }
+
+    .mydiv {
+        display: table;
+        margin-right: auto;
+        margin-left: auto;
+        border: double;
+        align-content: center;
+        width: 700px;
+    }
+</style>
+
+<div class="mydiv">
+    <input ID="txt_search" runat="server"><asp:Button ID="btn_search" runat="server" Text="Search" />
+
+    <table ID="tbl_market">
+        <tr>
+            <th>               
+            </th>
+            <th ItemStyle-CssClass="ItemNameC">Item Name</th>
+            <th ItemStyle-CssClass="ItemRegisterDateC">Item Register Date</th>
+            <th ItemStyle-CssClass="ItemPriceC" > Item Price</th>
+            <th ItemStyle-CssClass="ItemAvailablityC">Item Availablity</th>
+            </tr>
+        @for (int i = 0; i < 10; i++)
+        {
+        <tr>
+            <td>
+                <img src="~/Content/2.png" />
+            </td>
+            <td ItemStyle-CssClass="ItemNameC">Item Name</td>
+            <td ItemStyle-CssClass="ItemRegisterDateC">@DateTime.Now</td>
+            <td ItemStyle-CssClass="ItemPriceC"> 200 RM</td>
+            <td ItemStyle-CssClass="ItemAvailablityC">&bull; &#0149; </td>
+        </tr>
+        }
+    </table>
+
+</div>

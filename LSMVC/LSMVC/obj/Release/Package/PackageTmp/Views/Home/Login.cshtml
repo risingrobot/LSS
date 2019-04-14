@@ -1,0 +1,81 @@
+﻿@model LSMVC.Models.SHOPKEEPER
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using (Html.BeginForm("TryLogin", "UserRegister", FormMethod.Post, new { @class = "form-horizontal", role = "form"}))
+{
+<style>
+    /* unvisited link */
+
+    /* Full-width input fields */
+    input[type=text], input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+
+    .btn-1:hover:after {
+        height: 100%;
+    }
+
+    button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
+    /* Add padding to container elements */
+    .container {
+        padding: 16px;
+    }
+</style>
+
+<div class="login">
+    <h1>Login</h1>
+    
+    @Html.Label("Email :")
+    @Html.TextBoxFor(model => model.email, new { @id = "username", @class = "form-control" ,@value = "a"})
+    <br>
+    @Html.Label("Secret Key :")
+    @Html.TextBoxFor(model => model.password, new { @id = "psword", @class = "form-control",@value = "1",@type="password" })
+    
+   
+    <input ID="login" class="btn btn-primary btn-block btn-large" type="submit" runat="server"  value="Let's Shop" />
+    <br>
+</div>
+<div>
+    @Html.ActionLink("Click to register Shop", "ShopRegister", "Home")
+    @Html.ActionLink("Click to register User", "UserRegister", "Home")
+</div>
+
+
+}
+<script>
+  $( function() {
+    $( "#dialog" ).dialog({
+      autoOpen: false,
+      show: {
+        effect: "blind",
+        duration: 1000
+      },
+      hide: {
+        effect: "explode",
+        duration: 1000
+      }
+    });
+    function opendialog()
+    {
+        $("#dialog").dialog("open");
+    }
+
+  } );
+</script>
+<div id="dialog" title="Basic dialog">
+    <p>Username or Secret Key Wrong</p>
+</div>

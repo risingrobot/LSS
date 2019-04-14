@@ -1,0 +1,72 @@
+﻿@model LSMVC.Models.SHOPKEEPER
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using (Html.BeginForm("CreateShopKeeper", "UserRegister", FormMethod.Post,  new { @class = "form-horizontal", role = "form" , enctype = "multipart/form-data" }))
+{
+<script type="text/javascript">
+        function ShowImagePreview(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    $('#Oimg').attr('src', e.target.result)
+                        .width(240)
+                        .height(150);
+                };
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+</script>
+<div class="container">
+    <fieldset>
+        @Html.Label("Owner Full Name:")
+        @Html.TextBoxFor(model => model.FullName, new { @id = "txt_fullname", @class = "form-control" })
+        <br>
+    </fieldset>
+    <fieldset>
+       @Html.Label("Owner Gender:");
+    @Html.Label("Male:")
+    @Html.RadioButtonFor(model => model.Gender, new { @value = "0" })<br>
+    @Html.Label("Female:")
+    @Html.RadioButtonFor(model => model.Gender, new { @value = "1" })
+        <br>
+    </fieldset>
+    <fieldset>
+        @Html.Label("Age:")
+        @Html.TextBoxFor(model => model.DOB, new { id = "datepicker" })
+        <br>
+    </fieldset>
+    <fieldset>
+        @Html.Label("Owner Email:")
+        @Html.TextBoxFor(model => model.email, new { @id = "txt_register_email", @class = "form-control" })
+        <br>
+    </fieldset>
+    <fieldset>
+         @Html.Label("Password:")
+        @Html.PasswordFor(model => model.password, new { @id = "pass", @class = "form-control" })
+        <br>
+        @Html.Label("Confirm Password:")
+        @Html.Password("ConfirmPass", "", new { @id = "pass", @class = "form-control" })
+        <br>
+    </fieldset>
+    <fieldset>
+        @Html.Label("Owner Phone#:")
+        @Html.TextBoxFor(model => model.PhoneNum, new { @id = "txt_phone", @class = "form-control" })
+        <br>
+    </fieldset>
+    <fieldset>
+        @Html.Label("Owner Image :")
+        @Html.TextBox("ImageFile", "",new { @id = "ImageFile", @class = "form-control", @type = "file", @onchange = "ShowImagePreview(this)" })
+        <img ID="Oimg" alt="a picture available anywhere" runat="server" />
+        <br>
+        </fieldset>
+
+    <input type="checkbox" ID="CheckBox1" runat="server" /><span>
+    Clicking this checkBox means that you agree to the Buddy Corp
+    terms, Conditions and privacy and cookies statement."
+</span><br />
+        <input ID="createUser" runat="server" type="submit" value="Create User"  class="btn btn-success" />
+
+</div>
+
+}

@@ -1,0 +1,80 @@
+﻿@model Tuple<LSMVC.Models.Item, List<LSMVC.Models.ItemType>, List<LSMVC.Models.Shop>, List<LSMVC.Models.Item>>
+@{
+    ViewBag.Title = "MaintainShop";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .center {
+        margin: auto;
+        width: 30%;
+        padding: 20px;
+    }
+    .middle {
+        margin: auto;
+        text-align: center;
+    }
+</style>
+
+@using (Html.BeginForm("CreateItem", "Item", FormMethod.Post, new { @class = "form-horizontal", role = "form", enctype = "multipart/form-data" }))
+{
+    
+<div id="mainc" class="container" runat="server">
+
+    <div class="center">
+        <h2>Maintain Shop Items</h2>
+    </div>
+     <div class="col-md-3">
+
+       
+        @Html.Label("Shop No:")
+        @Html.DropDownListFor(Model => Model.Item3, new SelectList(
+Model.Item3.Select(x => new { Value = x.id, Text = x.ShopName }),
+"Value",
+"Text"
+), new { @id = "item3", @class = "form-control listbox", @multiple = "multiple", @onchange = "CallChangefunc(this.value)" })
+        @Html.ValidationMessageFor(x => x.Item3, "", new { @class = "text-danger" })
+         <br>
+        @Html.Label("Item Name:")
+        @Html.TextBoxFor(model => model.Item1.ItemName, new { @class = "form-control" })
+         <br>                
+        @Html.Label("Item type:")
+        @Html.DropDownListFor(Model => Model.Item2, new SelectList(
+ Model.Item2.Select(x => new { Value = x.ID, Text = x.typename }),
+ "Value",
+ "Text"
+), new { @id = "item3", @class = "form-control listbox", multiple = "multiple" })
+        @Html.ValidationMessageFor(x => x.Item3, "", new { @class = "text-danger" })
+         <br>
+        @Html.Label("Item Details:")
+        @Html.TextBoxFor(model => model.Item1.ItemDetails, new { @class = "form-control" })
+         <br>
+        @Html.Label("Price:")
+        @Html.TextBoxFor(model => model.Item1.Price, new { @class = "form-control" })
+         <br>
+         <h4 style="color: cadetblue">Item Available</h4>
+        <input ID="check_availability" type="checkbox" /><p>Please tick for Item Availablility</p>
+
+    </div>      
+    <div class="col-md-4">
+       
+             @Html.Label("Item Image :")
+            @Html.TextBox("ImageFileItem", "", new { @id = "ImageFileItem", @class = "form-control", @type = "file", @onchange = "ShowImagePreview(this)" })
+            <br>
+            <img ID="Simg" alt="a picture available anywhere" runat="server" />
+            
+    </div>
+    <div class="col-md-4">
+        <h2>Press to make changes</h2>
+        <input ID="btn_create" type="submit" value="Create Item"  class="btn btn-primary btn-block btn-large" />
+    </div>
+   
+</div>
+<div id="tbl" class="middle">
+    <table class="table table-bordered table-responsive table-hover" id="tblEmployee">
+    </table>  
+    
+</div>
+
+@Scripts.Render("~/Scripts/ViewItems.js")
+
+}

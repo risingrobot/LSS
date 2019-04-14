@@ -1,0 +1,22 @@
+ctx.rect(185, 170, 25, 10);
+ctx.stroke();
+//left top
+ctx.rect(220, 170, 25, 10);
+ctx.stroke();
+//right Top
+ctx.rect(180, 180, 70, 50);
+ctx.stroke();
+//body
+ctx.rect(170, 180, 90, 5);
+ctx.stroke();
+//center top
+
+ctx.rect(190, 200, 30, 20);
+ctx.stroke();
+//window
+ctx.rect(225, 200,15, 25);
+ctx.stroke();
+//door 
+ctx.rect(170, 230, 90, 10);
+ctx.stroke();
+//center bottom 

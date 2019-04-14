@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "LogOut";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script>
+    $(function () {
+        setTimeout(function () { document.getElementById('formx').submit(); }, 700);
+
+    });
+
+</script>
+@using (Html.BeginForm("Index", "Home", FormMethod.Get, new { @id="formx",@class = "form-horizontal", role = "form" }))
+{
+    <div class="text-center">
+        <h2>Logging Out</h2>       
+    </div>
+}

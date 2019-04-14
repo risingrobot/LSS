@@ -1,0 +1,154 @@
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\ApplicationInsights.config
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\roslyn\csc.exe
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\roslyn\csc.exe.config
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\roslyn\csc.rsp
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\roslyn\csi.exe
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\roslyn\csi.rsp
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\roslyn\System.AppContext.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\roslyn\System.Collections.Immutable.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\roslyn\System.IO.FileSystem.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\roslyn\System.Reflection.Metadata.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\roslyn\vbc.exe
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\roslyn\vbc.exe.config
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\roslyn\vbc.rsp
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\roslyn\VBCSCompiler.exe
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\roslyn\VBCSCompiler.exe.config
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\LSMVC.dll.config
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\LSMVC.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\LSMVC.pdb
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\Antlr3.Runtime.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\EntityFramework.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\EntityFramework.SqlServer.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\Microsoft.AI.Agent.Intercept.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\Microsoft.AI.DependencyCollector.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\Microsoft.AI.Web.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\Microsoft.AI.WindowsServer.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\Microsoft.ApplicationInsights.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\Microsoft.Web.Infrastructure.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\Newtonsoft.Json.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\System.Net.Http.Formatting.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\System.Web.Helpers.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\System.Web.Http.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\System.Web.Http.WebHost.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\System.Web.Mvc.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\System.Web.Optimization.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\System.Web.Razor.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\System.Web.WebPages.Deployment.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\System.Web.WebPages.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\System.Web.WebPages.Razor.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\WebGrease.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\EntityFramework.xml
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\EntityFramework.SqlServer.xml
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\System.Net.Http.Formatting.xml
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\System.Web.Http.xml
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\System.Web.Http.WebHost.xml
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\System.Web.Helpers.xml
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\System.Web.Mvc.xml
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\System.Web.Optimization.xml
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\System.Web.Razor.xml
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\System.Web.WebPages.xml
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\System.Web.WebPages.Deployment.xml
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\System.Web.WebPages.Razor.xml
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\Antlr3.Runtime.pdb
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\Newtonsoft.Json.xml
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\Microsoft.ApplicationInsights.xml
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\Microsoft.AI.DependencyCollector.xml
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\Microsoft.AI.WindowsServer.xml
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\bin\Microsoft.AI.Web.xml
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\obj\Release\LSMVC.csprojResolveAssemblyReference.cache
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\obj\Release\LSMVC.dll
+D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\obj\Release\LSMVC.pdb
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\ApplicationInsights.config
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\roslyn\csc.exe
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\roslyn\csc.exe.config
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\roslyn\csc.rsp
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\roslyn\csi.exe
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\roslyn\csi.rsp
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\roslyn\System.AppContext.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\roslyn\vbc.exe
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\roslyn\vbc.exe.config
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\roslyn\vbc.rsp
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\roslyn\VBCSCompiler.exe
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\LSMVC.dll.config
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\LSMVC.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\LSMVC.pdb
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\Antlr3.Runtime.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\EntityFramework.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\EntityFramework.SqlServer.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\Microsoft.AI.Web.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\Microsoft.ApplicationInsights.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\Newtonsoft.Json.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\System.Net.Http.Formatting.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\System.Web.Helpers.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\System.Web.Http.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\System.Web.Http.WebHost.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\System.Web.Mvc.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\System.Web.Optimization.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\System.Web.Razor.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\System.Web.WebPages.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\System.Web.WebPages.Razor.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\WebGrease.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\EntityFramework.xml
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\EntityFramework.SqlServer.xml
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\System.Net.Http.Formatting.xml
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\System.Web.Http.xml
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\System.Web.Http.WebHost.xml
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\System.Web.Helpers.xml
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\System.Web.Mvc.xml
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\System.Web.Optimization.xml
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\System.Web.Razor.xml
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\System.Web.WebPages.xml
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\System.Web.WebPages.Razor.xml
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\Antlr3.Runtime.pdb
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\Newtonsoft.Json.xml
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\Microsoft.ApplicationInsights.xml
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\bin\Microsoft.AI.Web.xml
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\obj\Release\LSMVC.csprojResolveAssemblyReference.cache
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\obj\Release\LSMVC.dll
+C:\Apps\Arsalan\Arsalan\CCC\LSMVC\LSMVC\obj\Release\LSMVC.pdb

@@ -1,0 +1,151 @@
+﻿@model  Tuple<LSMVC.Models.Shop, LSMVC.Models.SHOPKEEPER,List<LSMVC.Models.ShopType>> 
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using (Html.BeginForm("CreateShop", "UserRegister", FormMethod.Post, new { @class = "form-horizontal", role = "form", enctype = "multipart/form-data" }))
+{
+ <style>
+     .center {
+         margin: auto;
+         width: 30%;
+         padding: 20px;
+     }
+     </style>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#datepicker").datepicker();
+            $('.listbox').multiselect({
+                includeSelectAllOption: true
+            });
+        });
+        
+    function ShowImagePreview(input)
+    {
+
+        if (input.files && input.files[0])
+        {
+            var reader = new FileReader();
+            reader.onload = function(e) {
+
+                $('#Oimg').attr('src', e.target.result)
+                        .width(240)
+                        .height(150);
+            };
+            reader.readAsDataURL(input.files[0]);
+        }
+    };
+    function ShowImagePreview1(input)
+    {
+
+        if (input.files && input.files[0])
+        {
+            var reader = new FileReader();
+            reader.onload = function(e) {
+
+                $('#Simg').attr('src', e.target.result)
+                        .width(240)
+                        .height(150);
+            };
+            reader.readAsDataURL(input.files[0]);
+        }
+    };
+
+</script>
+<div  class="container" style="width: 100%" >
+
+    <div style="width: 50%;float:left" >
+        <fieldset>
+            @Html.Label("Owner Full Name:")
+            @Html.TextBoxFor(model => model.Item2.FullName, new { @id = "txt_fullname", @class = "form-control" })
+
+            <br>
+
+
+        </fieldset>
+        <fieldset>
+            @Html.Label("Password:")
+            @Html.PasswordFor(model => model.Item2.password, new { @id = "pass", @class = "form-control" })
+            <br>
+        </fieldset>
+        <fieldset>
+            @Html.Label("Confirm Password:")
+            @Html.Password("ConfirmPass", "", new { @id = "pass", @class = "form-control" })
+            <br>
+        </fieldset>
+        <fieldset>
+            @Html.Label("Owner Gender:");
+            @Html.Label("Male:")
+            @Html.RadioButtonFor(model => model.Item2.Gender, new { @value = "0" })<br>
+            @Html.Label("Female:")
+            @Html.RadioButtonFor(model => model.Item2.Gender, new { @value = "1" })
+        </fieldset>
+        <fieldset>
+            @Html.Label("Owner Date of Birth:")
+            @Html.TextBoxFor(model => model.Item2.DOB, new { id = "datepicker" })
+           
+           <p></p>
+            
+        </fieldset>
+        <fieldset>
+            @Html.Label("Owner Email:")
+            @Html.TextBoxFor(model => model.Item2.email, new { @id = "txt_register_email", @class = "form-control" })
+            <br>
+        </fieldset>
+
+        <fieldset>
+            @Html.Label("Owner Phone#:")
+            @Html.TextBoxFor(model => model.Item2.PhoneNum, new { @id = "txt_phone", @class = "form-control" })
+            <br>
+        </fieldset>
+        <fieldset>
+            @Html.Label("Owner Image :")
+            @Html.TextBox("ImageFileOw","", new { @id = "ImageFileOw", @class = "form-control", @type = "file" , @onchange = "ShowImagePreview(this)" })
+            <img ID="Oimg" alt="a picture available anywhere" runat="server" />
+            <br>
+        </fieldset>
+    </div>
+<div style="width: 50%;float:right">
+    <fieldset>
+        @Html.Label("Shop no:")
+        @Html.TextBoxFor(model => model.Item1.Shopno, new { @id = "txt_shopno", @class = "form-control" })
+        <br>
+    </fieldset>
+    <fieldset>
+        @Html.Label("Shop Name:")
+        @Html.TextBoxFor(model => model.Item1.ShopName, new { @id = "txt_shopname", @class = "form-control" })
+        <br>
+    </fieldset>
+    <fieldset>
+        @Html.Label("Shop Location:")
+        @Html.TextBoxFor(model => model.Item1.ShopLocation, new { @id = "txt_location", @class = "form-control" })
+        <br>
+    </fieldset>
+    <fieldset>
+        @Html.Label("Shop Area:")
+        @Html.TextBoxFor(model => model.Item1.ShopArea, new { @id = "txt_shoparea", @class = "form-control" })
+        <br>
+    </fieldset>
+    <fieldset>
+       @Html.Label("Shop type:")       
+        @Html.DropDownListFor(Model => Model.Item3, new SelectList(
+        Model.Item3.Select(x => new { Value = x.ID, Text = x.typename }),
+        "Value",
+        "Text"
+    ), new {@id = "item3", @class = "form-control listbox", multiple = "multiple" })       
+        @Html.ValidationMessageFor(x => x.Item3, "", new { @class = "text-danger" })
+        <br>
+      </fieldset>
+    <fieldset>
+         @Html.Label("Shop Image :")        
+        @Html.TextBox("ImageFileShop","", new { @id = "ImageFileShop", @class = "form-control", @type = "file", @onchange = "ShowImagePreview1(this)" })
+       <img ID="Simg" alt="a picture available anywhere" runat="server" />
+        <br>
+    </fieldset>
+</div>   
+</div>
+<div class="center">
+    <input type="checkbox" ID="CheckBox1" runat="server" /><span>Clicking this checkBox means that you agree to the Buddy Corp terms, Conditions and privacy and cookies statement.</span><br />
+    <input ID="btn_create" type="submit" runat="server" value="Create Account" class="btn btn-primary" />
+</div>
+}

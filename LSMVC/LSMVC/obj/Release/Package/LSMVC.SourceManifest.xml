@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\obj\Release\Package\PackageTmp" />
+  <setAcl path="D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="D:\studies\level 3\Semester2\documents\Visual Studio 2017\Projects\LSMVC\LSMVC\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>

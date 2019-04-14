@@ -1,0 +1,23 @@
+﻿@model List<SelectListItem>
+@{
+    ViewBag.Title = "ChooseShop";
+
+}
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.listbox').multiselect({
+                includeSelectAllOption: true
+            });
+        });
+        </script>
+<div>
+<h2>ChooseShop</h2>
+<fieldset>
+    <fieldset>
+        @Html.Label("Availble Shop Locations:")
+        <br>        
+       @Html.DropDownList("CityName", new SelectList(Model, "Value", "Text"), new { @class = "form-control listbox" } )
+    </fieldset>   
+</fieldset>
+    </div>
+

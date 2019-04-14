@@ -1,0 +1,71 @@
+﻿@{
+    ViewBag.Title = "Home Market";
+}
+
+<style>
+    .Grid {
+        background-color: #fff;
+        margin: 5px 0 10px 0;
+        border: solid 1px #525252;
+        width: 700px;
+        font-family: 'Times New Roman';
+        color: #474747;
+    }
+
+        .Grid td {
+            padding: 2px;
+            border: solid 1px #c1c1c1;
+        }
+
+        .Grid th {
+            padding: 4px 2px;
+            color: #fff;
+            background: #c5c5c6;
+            border-left: solid 1px #525252;
+            font-size: 1.9em;
+        }
+
+    .altgrid {
+        background: aliceblue;
+    }
+
+    .ItemNameC {
+    }
+
+    .ItemPriceC {
+    }
+
+    .ItemRegisterDateC {
+    }
+
+    .mydiv {
+        display: table;
+        margin-right: auto;
+        margin-left: auto;
+        border: double;
+        align-content: center;
+        width: 700px;
+    }
+</style>
+
+<div class="mydiv">
+    <input ID="txt_search" runat="server"><asp:Button ID="btn_search" runat="server" Text="Search" />
+
+    <asp:GridView ID="tbl_market" AllowPaging="true" runat="server" ShowHeader="false" AutoGenerateColumns="false"
+                  OnRowDataBound="tbl_market_RowDataBound" PageSize="10" OnSelectedIndexChanged="tbl_market_SelectedIndexChanged" OnPageIndexChanging="tbl_market_PageIndexChanging">
+        <Columns>
+            <asp:TemplateField>
+                <ItemTemplate>
+                    <asp:Image Id="Image1" AlternateText="Preview" runat="server"  Visible="true" Height="200px"
+                               ImageUrl='<%#"data:Image/png;base64,"+ Convert.ToBase64String((byte[])Eval("itemImage")) %>' />
+                </ItemTemplate>
+            </asp:TemplateField>
+            <asp:BoundField ItemStyle-CssClass="ItemNameC" DataField="ItemName" />
+            <asp:BoundField ItemStyle-CssClass="ItemRegisterDateC" DataField="ItemRegisterDate" />
+            <asp:BoundField ItemStyle-CssClass="ItemPriceC" DataField="ItemPrice" />
+            <asp:BoundField ItemStyle-CssClass="ItemAvailablityC" DataField="ItemAvailablity" />
+
+        </Columns>
+    </asp:GridView>
+
+</div>

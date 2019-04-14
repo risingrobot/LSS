@@ -1,0 +1,77 @@
+﻿@{
+    ViewBag.Title = "SHOPS";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5q3YTSUVe7njoQQhvQ1viV3-AxWPqk6Y">
+</script>
+<style>
+    canvas {
+        border: 2px solid black;
+        background-color: white;
+    }
+
+    .middle {
+        margin: auto;
+        text-align: center;
+    }
+</style>
+<style>
+    .slidecontainer {
+        width: 800px;
+    }
+
+    .slider {
+        -webkit-appearance: none;
+        width: 800px;
+        height: 25px;
+        background: #d3d3d3;
+        outline: none;
+        opacity: 0.7;
+        -webkit-transition: .2s;
+        transition: opacity .2s;
+    }
+
+        .slider:hover {
+            opacity: 5;
+        }
+
+    #closbtn {
+        background-color: #f44336;
+    }
+
+</style>
+
+        <div class="middle">
+            <br>
+            <br>
+            <canvas onmousedown="mouseDown(event)"></canvas>
+            <br>
+            <select id="minbeds">
+                <option value="-2">Reverse Fast</option>
+                <option value="-1">Reverse</option>
+                <option value="0">Stop</option>
+                <option selected value="1">Move</option>
+                <option value="2">Move Fast</option>
+                <option value="3">Move Fastest</option>
+            </select>
+            <br>
+            <div>
+                <input type="range" min="-2" max="3" value="1" class="slider" id="myRange">
+            </div>
+        </div>
+    
+        @Scripts.Render("~/Scripts/Shops.js")
+        <div id='myModal' class='modal' style="text-align:center;">
+            <div class="modal-dialog" style="width:330px; height:200px;">
+                <div class="modal-content" style="overflow: auto; background-color:#ffffff;">
+                    <div style="text-align:left;">
+                        <button type="button" id="closbtn"> X </button>
+                    </div>
+                    <div id='myModalContent' style="width:300px; height:120px;"></div>
+                    <input type="submit" id="btn_chooseLocation" value="Lets Shop" class="btn btn-primary" />
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>

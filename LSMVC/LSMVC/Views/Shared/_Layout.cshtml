@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LS</title>
+   
+    
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @RenderSection("scripts", required: false)
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+                li a:hover:not(.active) {
+                    background-color: #ffffff;
+                }
+
+    </style>
+        
+
+</head>
+
+<body onunload="bodyUnload();" onclick="clicked=true;">
+    
+        <div class="navbar-inverse navbar-fixed-top">
+            <div class="container">
+
+                <div>
+                    <ul>
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>
+                            @Html.ActionLink("Contact", "Contact", "Home")
+                        </li>
+                        <li>
+                            @Html.ActionLink("About", "About", "Home")
+                        </li>
+                        @{
+
+                            if (Session != null && @Session["id"].ToString() != null && @Session["id"].ToString() != "")
+                            {
+                                if (LSMVC.Content.LoginClass.lstobj != null && LSMVC.Content.LoginClass.lstobj.Count > 0)
+                                {
+                                    var id = (from a in LSMVC.Content.LoginClass.lstobj
+                                                  where Session["id"] != null && a != null && a.session == Session["id"].ToString()
+                                                  select a.email).ToList();
+                                    if (id.Count > 0)
+                                    {
+                                        <li>@Html.ActionLink("View Shops", "ShowShops", "ShowShops")</li>
+                                        <li style="float:right">@Html.ActionLink("Log Out", "Logout", "Home")</li>
+
+                                    }
+                                    else
+                                    {
+                                        <li style="float:right">@Html.ActionLink("Login", "Login", "Home")</li>
+                                    }
+
+
+                                }
+                                else
+                                {
+                                    <li style="float:right">@Html.ActionLink("Login", "Login", "Home")</li>
+                                }
+
+                            }
+                            else
+                            {
+                                <li style="float:right">@Html.ActionLink("Login", "Login", "Home")</li>
+                            }
+
+                        }
+
+                        }
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container body-content">
+            @RenderBody()
+
+        </div>
+
+
+</body>
+
+</html>
+<script language="javascript" type="text/javascript">
+    var sessionid = "";
+    //<![CDATA[
+     $.ajax({
+        url: '/ShowShops/getsessionid',
+        type: "POST",
+        success: function (data) {
+            sessionid = data;
+        }
+    });
+    var clicked = false;
+    function CheckBrowser() {
+        if (clicked == false) {
+            //Browser closed
+        }
+        else {
+            //redirected
+            clicked = false;
+        }
+    }
+
+    function bodyUnload() {
+        if (clicked == false)//browser is closed
+        {
+            $.ajax({
+                url: '/Home/ClearSession',
+                data: { 'session': sessionid },
+                type: "POST",
+                success: function (data) {
+                   
+                }
+            });
+        }
+    }
+    function GetRequest() {
+        var request = null;
+        if (window.XMLHttpRequest) {
+            //incase of IE7,FF, Opera and Safari browser
+            request = new XMLHttpRequest();
+        }
+        else {
+            //for old browser like IE 6.x and IE 5.x
+            request = new ActiveXObject('MSXML2.XMLHTTP.3.0');
+        }
+        return request;
+    }
+    $(window).resize(function () {
+        if ($(window).width() <= 930 && $(window).height() <= 700) {
+            $('#Resolution').show();
+        } else {
+            location.reload();
+            $('#Resolution').hide();
+        }
+    });
+
+
+    //]]>
+</script>
+<div id='Resolution' hidden class='modal' style="text-align:center;background-color:white;overflow: auto;">
+    <div class="modal-dialog" style="width:100%; height:100%;">
+        <div class="modal-content text-center">
+            Cannot Load
+        </div>
+    </div>
+</div>

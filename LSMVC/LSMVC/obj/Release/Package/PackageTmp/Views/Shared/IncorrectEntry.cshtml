@@ -1,0 +1,16 @@
+﻿
+<script>
+    $(function () {
+      setTimeout(function () { document.getElementById('hyper').click(); }, 5000);
+        
+    });
+    
+    </script>
+@using (Html.BeginForm("Login", "Home", FormMethod.Get, new { @class = "form-horizontal", role = "form" }))
+{
+<h1>Wrong Password</h1>
+ 
+   <input type="submit" value="Try Again" id ="hyper" class="btn btn-primary btn-block btn-large">
+}
+
+

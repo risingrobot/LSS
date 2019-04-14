@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="WorkContext-Web.config Connection String" description="WorkContext Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:lssdb.database.windows.net,1433;Database=LSS;Uid=Buddy@lssdb;Pwd=Aabc1234;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\studies\\level\ 3\\Semester2\\documents\\Visual\ Studio\ 2017\\Projects\\LSMVC\\LSMVC\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='WorkContext']/@connectionString" />
+  </parameter>
+</parameters>
