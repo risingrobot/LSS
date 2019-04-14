@@ -16,7 +16,7 @@ namespace LSMVC.Controllers
         readonly bool x = false;
         public UserRegisterController()
         {
-            if (x)
+            if (!x)
             {
                 Adddata();
             }

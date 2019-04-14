@@ -20,8 +20,8 @@ namespace LSMVC
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-           // Database.SetInitializer<WorkContext>();
-            //ShopsJVObjectData.GetData();
+            Database.SetInitializer<WorkContext>(new CreateDatabaseIfNotExists<WorkContext>());
+            ShopsJVObjectData.GetData();
 
         }
         protected void Session_Start(Object sender, EventArgs e)
